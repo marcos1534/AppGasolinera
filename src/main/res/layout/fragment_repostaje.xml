@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RepostajeFragment">
+
+    <!-- Fondo con transparencia opcional -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo_repostaje"
+        android:scaleType="centerCrop"
+        android:background="@color/black"/>
+
+    <!-- Contenedor principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saludo_usu"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Tipo de combustible -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/textTipoConbus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/combustible"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical" />
+
+            <Spinner
+                android:id="@+id/comboTipo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <!-- Cantidad -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/textCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cantidad"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical" />
+
+            <Spinner
+                android:id="@+id/comboCantidad"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <!-- Fecha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/botonFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fecha"
+                android:backgroundTint="@color/primaryColor"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/editTextFecha"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/seleccionar_fecha"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:focusable="false"
+                android:clickable="false"
+                android:background="@android:drawable/editbox_background" />
+        </LinearLayout>
+
+        <!-- Hora -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/botonHora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hora"
+                android:backgroundTint="@color/primaryColor"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/editTextHora"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/seleccionar_hora"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:focusable="false"
+                android:clickable="false"
+                android:background="@android:drawable/editbox_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <!-- Nuevo botón -->
+            <Button
+                android:id="@+id/botonRecycleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/consultar_precios_de_las_gasolineras"
+                android:backgroundTint="@color/primaryColor"
+                android:textColor="@color/white"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+
+        <!-- Ubicación -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/botonUbicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ubicaci_n"
+                android:backgroundTint="@color/primaryColor"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/editTextUbicacion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/seleccionar_ubicacion"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:focusable="false"
+                android:clickable="false"
+                android:background="@android:drawable/editbox_background" />
+        </LinearLayout>
+
+        <!-- Botón finalizar -->
+        <Button
+            android:id="@+id/botonFinalizarRepostaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/crear_cita"
+            android:backgroundTint="@color/primaryColor" />
+
+        <TextView
+            android:id="@+id/textViewDatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seleccion"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:alpha="0.8"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</FrameLayout>

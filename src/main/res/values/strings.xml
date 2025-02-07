@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">AppGasolinera</string>
+    <string name="matricula">Matricula</string>
+    <string name="cantidad_a_repostar">Gasolina</string>
+    <string name="registrar">Registrar</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="introducir_matricula">Introduzca la matricula</string>
+    <string name="introducir_usuario">Introduzca al usuario</string>
+    <string name="usuario">Usuario:</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="continuar">Puede continuar a la siguiente pestaña</string>
+    <string name="saludo_usu">"Complete los siguientes campos para crear la cita"</string>
+    <string name="combustible">Tipo de conbustible:</string>
+    <string name="cantidad">Cantidad a repostar:</string>
+    <string name="finalizar">Confirmar</string>
+    <string name="comboTipoCombus">Seleccione una opción</string>
+    <string-array name="Combustible">
+        <item>Diesel(Gasóleo A)</item>
+        <item>Diesel Premium(Gasóleo A++)</item>
+        <item>Sin plomo 95(Gasolina Octanos)</item>
+        <item>Sin plomo 98(Gasolina Octanos)</item>
+    </string-array>
+    <string name="comboCantidad">Seleccione una opción</string>
+    <string-array name="Precios">
+        <item>5€</item>
+        <item>10€</item>
+        <item>20€</item>
+        <item>Llenar depósito</item>
+    </string-array>
+    <string name="pago">Pago</string>
+    <string name="tipo_pago">Tipo de pago:</string>
+    <string name="Pagar">Pagar</string>
+    <string name="fin">Vuelva pronto y disfrute de su gasolina</string>
+    <string name="matriculaUsu">Matricula:</string>
+    <string name="comboPago">Seleccione una opción de pago</string>
+    <string name="seleccion">Usted a seleccionado x y de cantidad para la fecha f y la hora h;
+        se ha creado la cita correctamente;
+        puede proseguir al pago</string>
+    <string-array name="Pago">
+        <item>MasterCard</item>
+        <item>Visa</item>
+        <item>Bizum</item>
+        <item>Google Pay</item>
+        <item>PayPal</item>
+        <item>Bitcoin</item>
+    </string-array>
+    <string name="error_campos_vacios">Por favor, completa todos los campos.</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="textValoracion">Pago realizado con exito.\nSi no fuese muchas molestia agradeceria que valorara la aplicación</string>
+    <string name="valorar">Valorar</string>
+    <string name="confirmacion">¿Estan todos los datos correctos?\nSi la respuesta es si confirme la cita con el siguiente boton, sino reescriba los datos.</string>
+    <string name="crear_cita">Crear cita</string>
+    <string name="datos_guardados">Datos guardados correctamente. ¡Puede continuar!</string>
+    <string name="datos_cargados">Datos previamente guardados cargados</string>
+    <string name="error_matricula_invalida">La matrícula debe tener el formato correcto (ejemplo: 1234ABC)</string>
+    <string name="error_usuario_invalido">El usuario solo puede contener letras y números</string>
+    <string name="error_matricula_vacia">Debe completar el campo de la matricula</string>
+    <string name="error_usuario_vacio">Debe completar el campo del usuario</string>
+    <string name="seleccion_ubicacion">Seleccione una ubicación</string>
+    <string name="ubicaci_n">Ubicación</string>
+    <string name="seleccione_una_ubicaci_n">Seleccione una ubicación</string>
+    <string name="mensaje_bienvenida">Echa gasolina antes que nadie</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="seleccionar_fecha">Fecha</string>
+    <string name="seleccionar_hora">Hora</string>
+    <string name="seleccionar_ubicacion">Ubicación</string>
+    <string name="consultar_precios_de_las_gasolineras">Consultar precios de las gasolineras</string>
+    <string name="gas_image_desc" />
+</resources>

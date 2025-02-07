@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="backgroundColor">#3E5F8A</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#E61919</color>
+    <color name="blue">#0083FF</color>
+    <color name="yellowBack">#F4CF0F</color>
+    <color name="orangeBack">#FFA500</color>
+    <color name="primaryColor">#3F51B5</color>
+    <color name="primaryDarkColor">#303F9F</color>
+    <color name="accentColor">#FF4081</color>
+    <color name="gradient_start">#3b5998</color>
+    <color name="gradient_end">#8b9dc3</color>
+    <color name="pressed_color">#5c6bc0</color>
+    <color name="active_icon_text">#E0E0E0</color>
+    <color name="active_highlight">#5BC6EC</color>
+</resources>
