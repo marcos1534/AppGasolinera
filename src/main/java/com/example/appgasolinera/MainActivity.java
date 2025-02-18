@@ -148,4 +148,44 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.w("Reinicio", "MainActivity ON RESTART");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.v("Resume", "MainActivity ON RESUME");
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.v("Comienzo", "MainActivity ON START");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.v("Parada", "MainActivity ON STOP");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.w("Destruir", "MainActivity ON DESTRUIDA");
+    }
+
+    public void abrirAjustesSonido(View view) {
+        Intent intent = new Intent(this, AjustesSonidoActivity.class);
+        startActivity(intent);
+    }
+
+    public void abrirReproductor(View view){
+        Intent intent = new Intent(this, AndroidMediaPlayerApp.class);
+        startActivity(intent);
+    }
 }

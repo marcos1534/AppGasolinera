@@ -27,6 +27,8 @@
         <activity
             android:name=".InfoGasolineras">
         </activity>
+        <activity android:name=".AjustesSonidoActivity" />
+        <activity android:name=".AndroidMediaPlayerApp" />
         <!--
         <meta-data
             android:name="com.maptiler.sdk.api_key"

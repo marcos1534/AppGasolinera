@@ -10,7 +10,7 @@
     <string name="bienvenido">Bienvenido</string>
     <string name="continuar">Puede continuar a la siguiente pestaña</string>
     <string name="saludo_usu">"Complete los siguientes campos para crear la cita"</string>
-    <string name="combustible">Tipo de conbustible:</string>
+    <string name="combustible">Tipo de combustible:</string>
     <string name="cantidad">Cantidad a repostar:</string>
     <string name="finalizar">Confirmar</string>
     <string name="comboTipoCombus">Seleccione una opción</string>
@@ -67,4 +67,6 @@
     <string name="seleccionar_ubicacion">Ubicación</string>
     <string name="consultar_precios_de_las_gasolineras">Consultar precios de las gasolineras</string>
     <string name="gas_image_desc" />
+    <string name="volver">Volver</string>
+    <string name="nombre_de_la_canci_n">Nombre de la Canción</string>
 </resources>

@@ -130,7 +130,6 @@ public class RepostajeFragment extends Fragment implements View.OnClickListener 
         botonHora.setOnClickListener(this);
         botonFinalizar.setOnClickListener(this);
         botonUbicacion.setOnClickListener(this);
-        botonRecycleView.setOnClickListener(this);
 
         return rootView;
     }
